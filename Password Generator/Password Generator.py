@@ -29,5 +29,5 @@ def generate_passwords(n, m):
         spisok.append(generate_password(m))
     return spisok
 
-n, m = int(input()), int(input())
+n, m = int(input('Enter the number of passwords ')), int(input('Enter the length of the passwords '))
 print(*generate_passwords(n, m), sep='\n')
